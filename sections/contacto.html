@@ -33,7 +33,31 @@
             </div>
         </nav>
     </header>
-    <main></main>
+    <main class="d-flex justify-content-center text-center">
+        <form action="#" method="get">
+            <ul class="list-unstyled m-4">
+                <li class="m-4"><label for="Nombre">Nombre</label></li>
+                <input type="text" placeholder="Nombre" name="identidad" class="form-control w-100">
+                <li class="m-4"><label for="Edad">Edad</label></li>
+                <input type="number" min="0" max="120" name="Edad" class="form-control text-center" placeholder="0">
+                <li class="m-4"><label for="E-Mail">E-Mail (*)</label></li>
+                <input type="email" placeholder="E-Mail (Requerido)" name="Dirección de Correo" required class="form-control w-100">
+                <li class="m-4"><label for="Genero">Género</label></li>
+                <li>
+                    <div class="m-2">MASCULINO</div>
+                    <input type="radio" name="Genero" value="Masculino">
+                    <div class="m-2">FEMENINO</div>
+                    <input type="radio" name="Genero" Value="Femenino">
+                </li>
+                <li class="m-4"><label for="Comentarios">COMENTARIOS</label></li>
+                <input type="text" class="form-control w-100">
+                <input type="submit" class="submit m-3">
+            </ul>
+        </form>
+    </main>
+    <section>
+        <h3 class="text-center">NO DUDES EN DEJARNOS TU COMENTARIO!</h3>
+    </section>
     <footer>
         <section class="d-flex justify-content-center m-4">
             <nav class="navbar bg-body-tertiary">
