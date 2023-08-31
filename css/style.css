@@ -19,7 +19,6 @@
     color: white;
 }
 
-
 .carousel-item img{
     height: 600px;
 }
@@ -53,4 +52,10 @@
   .texto-4 { grid-area: texto-4; }
   
   .texto-5 { grid-area: texto-5; }
-  
+
+  @media (max-width: 1200px) {
+    .principal {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }
