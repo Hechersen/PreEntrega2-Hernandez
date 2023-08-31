@@ -19,6 +19,18 @@
     color: white;
 }
 
+h1 {
+    font-family: cursive;
+}
+
+p {
+    font-family: cursive;
+}
+
+.formulario {
+    font-family: cursive;
+}
+
 .carousel-item img {
     height: 600px;
 }
