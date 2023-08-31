@@ -1,0 +1,1 @@
+Las dos páginas que hice responsive fueron el index y la discografía.
